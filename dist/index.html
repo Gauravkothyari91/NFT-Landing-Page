@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        .bgi {
+            background: linear-gradient(90deg, rgba(178, 9, 205, 1) 0%, rgb(38, 10, 75) 30%, rgb(24, 6, 47) 45%, rgb(24, 6, 47) 60%, rgb(24, 6, 47) 67%, rgb(24, 6, 47) 81%);
+        }
+
+        .navbar {
+            background: rgb(178, 9, 205);
+            background: linear-gradient(90deg, rgba(178, 9, 205, 1) 0%, rgb(64, 2, 103) 30%, rgba(65, 0, 120, 1) 45%, rgba(66, 0, 135, 1) 60%, rgba(47, 5, 88, 1) 67%, rgba(65, 2, 82, 1) 81%);
+        }
+
+        .leftbtn {
+            background:
+                linear-gradient(#14041b 0 0) padding-box,
+                /*this is your background*/
+                linear-gradient(to right, #2a23ff, #b219ee) border-box;
+            border: 2px solid transparent;
+            border-radius: 10px;
+        }
+
+        .righttbtn {
+            background:
+                linear-gradient(#14041b 0 0) padding-box,
+                /*this is your background*/
+                linear-gradient(to right, #2a23ff, #b219ee) border-box;
+            border: 2px solid transparent;
+            border-radius: 10px;
+        }
+
+        .collect {
+            background:
+                linear-gradient(#14041b 0 0) padding-box,
+                /*this is your background*/
+                linear-gradient(to right, #2a23ff, #b219ee) border-box;
+            border: 2px solid transparent;
+            border-radius: 10px;
+        }
+        .leftimgwhy{
+            background: rgb(207, 164, 164);
+  background: radial-gradient(circle at 30% 5%, rgb(206, 176, 104) 0%, rgba(50,50,50,1) 26%, rgba(0,0,0,1) 52%);
+        }
+        .rightimgwhy{
+            background: rgb(173, 104, 104);
+  background: radial-gradient(circle at 50% 70%, rgb(204, 97, 113) 0%, rgba(50,50,50,1) 26%, rgba(0,0,0,1) 52%);
+        }
+        .leftimgwhy1{
+            background: rgb(173, 104, 104);
+  background: radial-gradient(circle at 30% 20%, rgb(123, 166, 223) 0%, rgba(50,50,50,1) 26%, rgba(0,0,0,1) 52%);
+        }
+        .rightimgwhy1{
+            background: rgb(173, 104, 104);
+  background: radial-gradient(circle at 60% 60%, rgb(105, 141, 115) 0%, rgba(50,50,50,1) 26%, rgba(0,0,0,1) 52%);
+        }
+        .why{
+            background:
+                linear-gradient(#14041b 0 0) padding-box,
+                /*this is your background*/
+                linear-gradient(to right, #b219ee, #38b6fa) border-box;
+            border: 2px solid transparent;
+            border-top-right-radius: 500px;
+            border-bottom-right-radius: 500px;
+        }
+        .readybtn{
+            background:
+                linear-gradient(#14041b 0 0) padding-box,
+                /*this is your background*/
+                linear-gradient(to right, #2a23ff, #b219ee) border-box;
+            border: 2px solid transparent;
+            border-radius: 10px;
+        }
+        .ready{
+            background:
+                linear-gradient(#160e2a 0 0) padding-box,
+                /*this is your background*/
+                linear-gradient(to right, #b219ee, #38b6fa) border-box;
+            border-bottom: 2px solid transparent;
+        }
+    </style>
+</head>
+
+<body class="">
+    <!-- bgi start -->
+    <div class="bgi w-[766px] md:w-[1030px] lg:w-[1212px] xl:w-[1340px] 2xl:w-[1600px]">
+        <!-- Navbar start -->
+        <nav
+            class="navbar  text-white flex justify-around p-5 w-[766px] md:w-[1030px] lg:w-[1212px] xl:w-[1340px] 2xl:w-[1600px] h-24 items-center border-b-2 border-b-white">
+            <div class="logo -ml-10">
+                <img class="w-8" src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="item invisible md:visible">
+                <ul class="initem md:flex md:gap-10 md:relative md:left-24">
+                    <li>MARKETPLACE</li>
+                    <li>ABOUT</li>
+                    <li>RESOURCES</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="hemburgur md:invisible relative left-60">
+                <div class="line1 bg-white w-5 h-[2px] m-[5px]"></div>
+                <div class="line2 bg-white w-5 h-[2px] m-[5px]"></div>
+                <div class="line3 bg-white w-5 h-[2px] m-[5px]"></div>
+            </div>
+            <div class="btn invisible md:visible md:flex">
+                <div class="leftbtn md:w-24 flex justify-center items-center md:h-11 md:hover:cursor-pointer">Log In
+                </div>
+                <div class="righttbtn md:w-24 ml-5 flex justify-center items-center md:h-11 md:hover:cursor-pointer ">
+                    Sign Up</div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+
+        <!-- first container start -->
+        <div
+            class="1container flex justify-center items-center flex-col md:flex-row md:gap-10 lg:gap-[150px] xl:gap-[230px] 2xl:gap-[360px]">
+            <div class="leftcont whitespace-nowrap mt-12">
+                <h1 class="text-purple-300 text-6xl pb-7">Keep Calm & <br>Collects Your NFTs.</h1>
+                <div class="para text-gray-300 pb-8">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, repellat <br>Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="play flex whitespace-nowrap gap-6">
+                    <i class="fa-solid fa-play fa-2xl mt-10" style="color: #a552ea;"></i>
+                    <div class="h text-white pb-5">
+                        <h1 class="font-bold">Let's get started!</h1>
+                        <p class="text-gray-300">Watch this quick demo video to see </p>
+                        <p class="text-gray-300">how to get started.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img class=" w-[450px] md:w-[400px] lg:w-[440px]" src="./assets/image.png" alt="image">
+            </div>
+        </div>
+        <!-- first container start -->
+    </div>
+    <!-- bgi end -->
+
+    <!-- second bgi -->
+    <div
+        class="secondbgi bg-[#160e2a] pb-10 relative -mt-3 w-[766px] md:w-[1030px] lg:w-[1212px] xl:w-[1340px] 2xl:w-[1600px] ">
+        <!-- Top creator section start-->
+        <section class="Top flex justify-center items-center flex-col">
+            <div class="h1 text-white flex mt-20 pb-10">
+                <img class="w-[64px] relative left-10 -top-2" src="https://clipground.com/images/sphere-clip-art-2.png"
+                    alt="circle">
+                <h1 class="text-4xl z-10">Top Creators</h1>
+            </div>
+            <div class="img">
+                <img src="./assets/map.png" alt="map">
+                <div class="person flex relative -top-72 md:-top-[350px] lg:-top-[430px]">
+                    <img class="relative left-12 -top-[80px] md:left-[178px] lg:-top-[100px] lg:left-[140px] xl:-top-[115px]"
+                        src="./assets/person.png" alt="person">
+                    <img class="relative left-[86px] -top-[74px] md:left-[260px] md:-top-[63px] lg:left-[370px] lg:-top-[66px] xl:-top-[77px] xl:left-[390px]"
+                        src="./assets/person.png" alt="person">
+                    <img class="relative left-32 -top-[57px] md:left-[315px] md:-top-[87px] lg:left-[470px] lg:-top-[100px] xl:-top-[150px] xl:left-[480px]"
+                        src="./assets/person.png" alt="person">
+                </div>
+                <div class="person flex relative -top-[324px] md:-top-[380px] lg:-top-[470px]">
+                    <img class="relative left-[150px] md:left-[210px] md:-top-2 lg:left-[320px] xl:left-[330px] xl:-top-[20px]"
+                        src="./assets/person.png" alt="person">
+                    <img class="relative left-[300px] md:left-[330px] lg:left-[475px] lg:-top-[10px] xl:left-[490px] xl:-top-[20px]"
+                        src="./assets/person.png" alt="person">
+                </div>
+                <div class="person flex relative -top-[324px] md:-top-[360px] lg:-top-[410px]">
+                    <img class="relative left-[200px] top-14 md:left-[305px] md:top-[49px] lg:left-[350px] xl:left-[358px]"
+                        src="./assets/person.png" alt="person">
+                    <img class="relative left-[208px] top-[10px] md:left-[360px] lg:left-[444px] lg:-top-[10px] xl:left-[459px] xl:-top-[14px]"
+                        src="./assets/person.png" alt="person">
+                </div>
+            </div>
+            <div class="btn">
+                <div
+                    class="collect text-white -mt-40 w-44 whitespace-nowrap ml-5 flex justify-center items-center h-11 hover:cursor-pointer hover:bg-gradient-to-r from-orange-500 to-green-500">
+                    View All Collectors</div>
+            </div>
+        </section>
+        <!-- Top creator section end -->
+
+        <!-- Latest NFT start -->
+        <section
+            class="NFT flex flex-col justify-center items-center md:flex-row lg:gap-[80px] xl:gap-[170px] 2xl:gap-[240px]">
+            <div class="bg-gradient-to-r from-purple-800 relative right-[160px] h-[800px] ">
+                <div class="leftNFT text-white relative left-40">
+                    <div class="topimg flex gap-20 mt-20">
+                        <div class="topleftimg border border-white w-[190px]">
+                            <div
+                                class="ml-7 -mt-7 w-[190px] h-[200px] bg-gradient-to-tl from-pink-700 to-blue-700 flex justify-center items-center">
+                                <img src="./assets/Image 1.png" alt="image1">
+                            </div>
+                            <h1 class="ml-8 mt-2">Ancient Ones</h1>
+                            <div class="flex items-center ml-8 gap-2 pb-3">
+                                <i class="fa-brands fa-ethereum mr-1"></i>
+                                <h1>5.0 ETH</h1>
+                            </div>
+                        </div>
+                        <div class="toprightimg border border-white w-[190px] relative top-12">
+                            <div class="ml-7 -mt-7 w-[190px] h-[200px]"><img src="./assets/merlin.png" alt="image1">
+                            </div>
+                            <h1 class="ml-8 mt-2">Lost In Space</h1>
+                            <div class="flex items-center ml-8 gap-2 pb-3">
+                                <i class="fa-brands fa-ethereum mr-1"></i>
+                                <h1>3.0 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="downimg flex gap-20 pb-10">
+                        <div class="downleftimg border border-white w-[190px] mt-20">
+                            <div class="ml-7 -mt-7 w-[190px] h-[200px] bg-gray-800"><img class="ml-5"
+                                    src="./assets/Avatar 1.png" alt="image1"></div>
+                            <h1 class="ml-8 mt-2">God Of War</h1>
+                            <div class="flex items-center ml-8 gap-2 pb-3">
+                                <i class="fa-brands fa-ethereum mr-1"></i>
+                                <h1>7.0 ETH</h1>
+                            </div>
+                        </div>
+                        <div class="downrightimg border border-white w-[190px] relative top-32 h-fit">
+                            <div class="ml-7 -mt-7 w-[190px] h-[200px]"><img src="./assets/Avatar2.png" alt="image1">
+                            </div>
+                            <h1 class="ml-8 mt-2">The Watchers</h1>
+                            <div class="flex items-center ml-8 gap-2 pb-3">
+                                <i class="fa-brands fa-ethereum mr-1"></i>
+                                <h1>3.2 ETH</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightNFT md:ml-14">
+                <div class="h1 text-white flex relative top-5 pb-10">
+                    <img class="w-[64px] relative left-10 -top-2"
+                        src="https://clipground.com/images/sphere-clip-art-2.png" alt="circle">
+                    <h1 class="text-4xl z-10">Latest NFT Collections</h1>
+                </div>
+                <div class="para text-green-200 pb-10 ml-14">
+                    <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class=" pb-2">dolor sit amet consectetur Lorem ipsum , adipisicing elit.</p>
+                    <p>sit amet consectetur Lorem ipsum dolor molestias?.</p>
+                </div>
+                <div class="btn ml-14">
+                    <div
+                        class="collect text-white w-44 whitespace-nowrap flex justify-center items-center h-11 hover:cursor-pointer hover:bg-gradient-to-r from-purple-500 to-cyan-500">
+                        View All Collectors</div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest NFT end -->
+
+        <!-- Why Choose us start -->
+        <section class="why flex items-center justify-center mt-20 -ml-10 h-[400px] md:gap-44 lg:gap-80 md:relative md:-left-16 whitespace-nowrap">
+            <div class="leftwhy md:ml-32">
+                <div class="h1 text-white flex relative top-5 pb-10">
+                    <img class="w-[64px] relative left-10 -top-2"
+                        src="https://clipground.com/images/sphere-clip-art-2.png" alt="circle">
+                    <h1 class="text-4xl z-10">Why Choose Us ?</h1>
+                </div>
+                <div class="para text-green-200 pb-10 ml-14">
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Velit harum tenetur nostrum
+                        molestiae <br>
+                        doloribus error quaerat est accusantium iure <br> iste quo ex consequuntur deleniti commodi quas
+                        <br>
+                        esse, doloremque perferendis optio neque. Aspernatur </p>
+                    <p class="mt-7"> corrupti, corporis a optio quaerat neque, <br>
+                        nostrum cum corrupti nobis asperiores? <br> Error, eveniet sit nobis.</p>
+                </div>
+            </div>
+            <div class="rightwhy text-green-100 ">
+                <div class="upimg flex gap-4">
+                   <div class="leftimgwhy rounded-lg border border-slate-600 w-[150px] h-[120px] whitespace-nowrap">
+                    <img class="ml-11 mt-3" src="./assets/simple-icons_marketo.png" alt="simple-icons_marketo">
+                    <h1 class="ml-8">Marketplace</h1>
+                   </div>
+                   <div class="rightimgwhy rounded-lg border border-slate-600 w-[150px] h-[120px] whitespace-nowrap">
+                    <img class="ml-12 mt-4 pb-2" src="./assets/healthicons.png" alt="healthicons">
+                    <h1 class="ml-3">Money Protection</h1>
+                   </div>
+                </div>
+                <div class="downimg flex gap-4 mt-5 ml-10">
+                    <div class="leftimgwhy1 rounded-lg border border-slate-600 w-[150px] h-[120px] whitespace-nowrap">
+                        <img class="ml-12 mt-4 pb-2" src="./assets/Vector.png" alt="Vector">
+                        <h1 class="ml-6">Data Protection</h1>
+                    </div>
+                    <div class="rightimgwhy1 rounded-lg border border-slate-600 w-[150px] h-[120px] whitespace-nowrap">
+                        <img class="ml-12 mt-1 pb-1" src="./assets/shopping-bag.svg" alt="shopping-bag">
+                        <h1 class="ml-6">Fast & Secure</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Why Choose us end -->
+
+         <!-- section create start -->
+         <section class="create text-white flex flex-col whitespace-nowrap ml-48 pb-24">
+            <div class="topcreate pb-12 md:ml-36 lg:ml-64 xl:ml-72 2xl:ml-96">
+                <img class="w-[64px] relative -left-7 top-14"
+                        src="https://clipground.com/images/sphere-clip-art-2.png" alt="circle">
+                <h1 class="text-4xl z-10 relative">Create And Sell Your NFTs</h1>
+            </div>
+            <div class="downcreate flex gap-[5.5rem]">
+               <div class="left -ml-4 md:flex md:justify-center md:items-center md:-ml-28 md:gap-16 lg:-ml-16 lg:gap-24 xl:-ml-0 2xl:ml-20">
+                <div>
+                    <img src=".//assets/wallet-one.png" alt="">
+                    <h1 class="mt-2 pb-2">Set Up Your Wallet</h1>
+                    <p class="text-gray-400">Once you've set up your <br>wallet of choice, connect it <br>to opensea by clicking the <br>wallet icon in the top right <br>corner. Learn about the <br>wallets we support.</p>
+                </div>
+                <div class="mt-10 md:mt-0">
+                    <img src="./assets/triangle-round-rectangle.svg" alt="">
+                    <h1 class="mt-2 pb-2">Create Your Collection</h1>
+                    <p class="text-gray-400">Click My Collections and <br> set up your collection. Add <br>social links, a discription, <br>profile and banner images, <br>and set a secondary sales <br>fee.</p>
+                </div>
+               </div>
+                <div class="right md:flex md:justify-center md:items-center md:gap-8 md:-ml-7 lg:gap-24">
+                    <div class="">
+                        <img src="./assets/picture.png" alt="">
+                        <h1 class="mt-2 pb-2">Add Your NFTs</h1>
+                        <p class="text-gray-400">Upload Your Work (Image, <br>video, audio or 3Dart),<br> add a title and discription, <br>and customize your NFTs <br>with properties, stats, and <br>unlockable content</p>
+                    </div>
+                    <div class="mt-10 md:mt-0">
+                        <img src="./assets/shopping-bag.svg" alt="">
+                        <h1 class="mt-2 pb-2">List Them For Sale</h1>
+                        <p class="text-gray-400">Choose between auction, <br>fixed-price listings, and <br>declining-price listing. You <br>choose how you want to <br>sell your NFTs, and we help <br>you sell them!</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- section create end -->
+
+         <!-- Ready start here -->
+         <div class="ready text-white flex flex-col justify-center items-center h-72">
+            <div class="heading text-4xl pb-10">Ready For Next NFT Drop?</div>
+            <div class="link pb-10">Youremail@xyz.com</div>
+            <div class="readybtn w-40 flex justify-center items-center h-11 md:hover:cursor-pointer">Send Email</div>
+         </div>
+         <!-- Ready ends here -->
+
+         <!-- footer start here -->
+         <footer class="foot text-white flex mt-10 ">
+            <div class="one ml-8 md:ml-14 lg:ml-28">
+                <img class="pb-4" src="./assets/logo.png" alt="logo">
+                <p class="pb-10 flex-nowrap text-xl">Amazing NFTs marketplace<br> and unique digital creation.</p>
+                <div class="dp flex gap-4 pb-5">
+                    <div class="circle border-2 border-purple-300 rounded-full w-9 h-9"><img class="relative left-[0.10rem]" src="./assets/whatsapp.png" alt="whatsapp"></div>
+                    <div class="circle border-2 border-purple-300 rounded-full w-9 h-9"><img class="relative left-2 top-1" src="./assets/fb.png" alt="fb"></div>
+                    <div class="circle border-2 border-purple-300 rounded-full w-9 h-9"><img class="relative left-1 top-1" src="./assets/insta.png" alt="insta"></div>
+                    <div class="circle border-2 border-purple-300 rounded-full w-9 h-9"><img class="relative left-1 top-1" src="./assets/yt.png" alt="yt"></div>
+                </div>
+                <div class="copy text-gray-500">
+                    <p>Copyright 2022 sapphire, All right reserved.</p>
+                </div>
+            </div>
+           <div class="container flex justify-center gap-12 ml-14 w-auto whitespace-nowrap md:relative md:left-40 lg:left-60 xl:left-96 2xl:left-[35rem]">
+            <div class="two">
+                <h1 class="pb-8 text-xl">Marketplace</h1>
+                <div class="item list-none space-y-3">
+                    <li>Explore</li>
+                    <li>NFTs</li>
+                    <li>Collectibles</li>
+                    <li>Virtual Reality</li>
+                </div>
+            </div>
+            <div class="three">
+                <h1 class="pb-8 text-xl">Resources</h1>
+                <div class="item list-none space-y-3">
+                    <li>Help Center</li>
+                    <li>Partners</li>
+                    <li>Blog</li>
+                    <li>Newsletter</li>
+                </div>
+                <span class="text-gray-500 relative top-9">Privacy Policy</span>
+            </div>
+            <div class="four">
+                <h1 class="pb-8 text-xl">Company</h1>
+                <div class="item list-none space-y-3">
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Support</li>
+                    <li>Newsletter</li>
+                </div>
+                <span class="text-gray-500 relative top-9 right-2">Terms & Condition</span>
+            </div>
+           </div>
+         </footer>
+         <!-- footer ends here -->
+    </div>
+</body>
+
+</html>
